@@ -796,6 +796,15 @@
         .qabul__input textarea{
             width: 90%;
         }
+        .header__right h1{
+            font-size: 26px !important;
+        }
+        .header__right p{
+            font-size: 14px !important;
+        }
+        #about p{
+            font-size: 14px;
+        }
     }
     @media (min-width:768px) and (max-width:1024px) {
         .navbar-default .navbar-nav>li>a {
