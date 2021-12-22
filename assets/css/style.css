@@ -37,7 +37,7 @@
     }
     
     .header {
-        background: rgba(0, 0, 0, 0) url("../img/test1.jpeg") repeat fixed center 0 / cover;
+        background: rgba(0, 0, 0, 0) url("../img/test123.jpg") repeat fixed center 0 / cover;
         color: #fff;
         height: 100%;
         overflow: hidden;
@@ -290,6 +290,11 @@
     
     .timg>img {
         width: 100%;
+        transition: 0.3s;
+    }
+    .timgage:hover {
+        border: 2px solid red !important;
+        transform: scale(1.2) !important;
     }
     
     .t-box .social-links {
@@ -314,9 +319,10 @@
     .timg {
         position: relative;
         transition: all 0.35s ease 0s;
+        overflow: hidden;
     }
     
-    .timg:hover::after {
+    /* .timg:hover::after {
         background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
         content: "";
         height: 100%;
@@ -324,7 +330,7 @@
         position: absolute;
         top: 0;
         width: 100%;
-    }
+    } */
     /*----------- services ------------*/
     
     #Services {
